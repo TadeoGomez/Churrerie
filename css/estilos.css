@@ -285,8 +285,101 @@ label{
     }
 }
 
-.provisorio{
-    height: 70%;
+.titulohistoria{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.imagenhistoria{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.textohistoria{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 250px;
+}
+
+.menu-title {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 36px;
+}
+
+.menu-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 30px;
+}
+
+.menu-item {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 5px #ccc;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+	width: 250px;
+}
+
+.menu-item-title {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.menu-item-description {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.menu-item-price {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.titulocontacto {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 36px;
+}
+
+.descripcioncontacto {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.formulariocontacto {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 5px #ccc;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 0 auto;
+	max-width: 500px;
+    text-align: center;
+}
+
+.contactoweb {
+	margin-bottom: 20px;
+}
+
+.contactoweb label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.botoncontacto {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 20px;
+	border: none;
+	background-color: #FF980
 }
 
 

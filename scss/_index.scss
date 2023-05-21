@@ -1,0 +1,166 @@
+.fondoprincipal{    
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/churros1.jpg");
+    background-position: center;
+}
+
+.tituloprincipal{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    opacity: 0.8;
+    display: block;
+    padding: 200px 0px 0px;
+    font-weight: bold;
+}
+
+.parrafoprincipal{
+    width: 100%;
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body{
+    background-color: white;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+main{
+    min-height: 100vh;
+}
+
+.titulo{
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+
+.tituloreserva{
+    padding: 20px 0px 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.reserva{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(238, 234, 234, 0.988);
+    align-items: center;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.formularioreserva{
+    text-align: center; 
+    width: 400px; 
+}
+
+@media screen and (max-width: 480px){
+    .formularioreserva{
+     width: 300px;
+    }
+}
+
+.form-check-input{
+    margin: 15px;
+}
+
+.botonreserva{
+    padding: 20px;
+}
+
+.btn{
+    background-color: white;
+}
+
+.logofooter{
+    height: 80px;
+    width: 150px;
+}
+
+@media screen and (max-width: 768px){
+    .logofooter{
+        display: none;
+    }
+}
+
+.redes{
+    padding: 10px;
+}
+
+.iconosfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.iconos{
+    width: 30px;
+}
+
+.contacto{
+    text-align: center;
+}
+
+.contactofooter{
+    padding: 5px;
+}
+
+@media screen and (max-width: 768px){
+    .contactofooter{
+        display: none;
+    }
+}
+
+.footer{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info{
+    font-size: 8px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 768px){
+    .info{
+        display: none;
+    }
+}
+
+.newsletter{
+    justify-content: center;
+}
+
+.newsletterfooter{
+    display: none;
+}
+
+.suscribirse{
+    display: flex;
+    justify-content: center;
+}
+
+.form-control{
+    padding-right: 5px;
+}
+
+.suscribirse button{
+    background-color: rgba(238, 234, 234, 0.988);
+}

@@ -1,0 +1,373 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  height: 80px;
+  width: 150px;
+  padding-bottom: 5px;
+}
+
+#navbarNav {
+  justify-content: center;
+  font-size: 20px;
+}
+
+.nav-item {
+  padding: 0px 40px;
+}
+
+.fondoprincipal {
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/churros1.jpg");
+  background-position: center;
+}
+
+.tituloprincipal {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  opacity: 0.8;
+  display: block;
+  padding: 200px 0px 0px;
+  font-weight: bold;
+}
+
+.parrafoprincipal {
+  width: 100%;
+  text-align: center;
+  color: white;
+  opacity: 0.8;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+body {
+  background-color: white;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.titulo {
+  text-align: center;
+  padding: 25px;
+  color: white;
+}
+
+.tituloreserva {
+  padding: 20px 0px 0px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.reserva {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(238, 234, 234, 0.988);
+  align-items: center;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.formularioreserva {
+  text-align: center;
+  width: 400px;
+}
+
+@media screen and (max-width: 480px) {
+  .formularioreserva {
+    width: 300px;
+  }
+}
+.form-check-input {
+  margin: 15px;
+}
+
+.botonreserva {
+  padding: 20px;
+}
+
+.btn {
+  background-color: white;
+}
+
+.logofooter {
+  height: 80px;
+  width: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .logofooter {
+    display: none;
+  }
+}
+.redes {
+  padding: 10px;
+}
+
+.iconosfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.iconos {
+  width: 30px;
+}
+
+.contacto {
+  text-align: center;
+}
+
+.contactofooter {
+  padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .contactofooter {
+    display: none;
+  }
+}
+.footer {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.info {
+  font-size: 8px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .info {
+    display: none;
+  }
+}
+.newsletter {
+  justify-content: center;
+}
+
+.newsletterfooter {
+  display: none;
+}
+
+.suscribirse {
+  display: flex;
+  justify-content: center;
+}
+
+.form-control {
+  padding-right: 5px;
+}
+
+.suscribirse button {
+  background-color: rgba(238, 234, 234, 0.988);
+}
+
+.menu-title {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px;
+}
+
+.menu-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+.menu-item-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.menu-item-description {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.menu-item-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.gridgaleria {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(5, 300px);
+  gap: 10px 10px;
+  grid-template-areas: "churros4 churros4 churros4 churros2" "churros3 churros9 churros9 churros2" "churros3 churros8 churros7 churros2" "churros10 churros8 churros5 churros5" "churros10 churros6 churros6 churros1";
+  justify-content: center;
+  padding: 30px;
+}
+
+.imagen1 {
+  grid-area: churros1;
+  background-image: url(../images/churros1.jpg);
+  background-position: center;
+}
+
+.imagen2 {
+  grid-area: churros2;
+  background-image: url(../images/churros2.jpg);
+  background-position: center;
+}
+
+.imagen3 {
+  grid-area: churros3;
+  background-image: url(../images/churros3.jpg);
+  background-position: center;
+}
+
+.imagen4 {
+  grid-area: churros4;
+  background-image: url(../images/churros4.jpg);
+  background-position: center;
+}
+
+.imagen5 {
+  grid-area: churros5;
+  background-image: url(../images/churros5.jpg);
+  background-position: right;
+}
+
+.imagen6 {
+  grid-area: churros6;
+  background-image: url(../images/churros6.jpg);
+  background-position: center;
+}
+
+.imagen7 {
+  grid-area: churros7;
+  background-image: url(../images/churros7.jpeg);
+  background-position: center;
+}
+
+.imagen8 {
+  grid-area: churros8;
+  background-image: url(../images/churros8.jpg);
+  background-position: center;
+}
+
+.imagen9 {
+  grid-area: churros9;
+  background-image: url(../images/churros9.jpg);
+  background-position: bottom;
+}
+
+.imagen10 {
+  grid-area: churros10;
+  background-image: url(../images/churros10.jpg);
+  background-position: center;
+}
+
+@media screen and (max-width: 1250px) {
+  .gridgaleria {
+    display: none;
+  }
+}
+.flexgaleria {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imagenesgaleria {
+  height: 300px;
+  width: 300px;
+  padding: 15px;
+}
+
+@media screen and (min-width: 1250px) {
+  .flexgaleria {
+    display: none;
+  }
+}
+.titulohistoria {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.imagenhistoria {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.textohistoria {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 250px;
+}
+
+.titulocontacto {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.descripcioncontacto {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.formulariocontacto {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+.contactoweb {
+  margin-bottom: 20px;
+}
+
+.contactoweb label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.botoncontacto {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: none;
+  background-color: #ccc;
+}
+
+/*# sourceMappingURL=styles.css.map */

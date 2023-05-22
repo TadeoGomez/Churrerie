@@ -172,13 +172,12 @@ label {
   display: flex;
   justify-content: center;
 }
+.suscribirse button {
+  background-color: rgba(238, 234, 234, 0.988);
+}
 
 .form-control {
   padding-right: 5px;
-}
-
-.suscribirse button {
-  background-color: rgba(238, 234, 234, 0.988);
 }
 
 .menu-title {
@@ -356,7 +355,6 @@ label {
 .contactoweb {
   margin-bottom: 20px;
 }
-
 .contactoweb label {
   display: block;
   margin-bottom: 5px;
